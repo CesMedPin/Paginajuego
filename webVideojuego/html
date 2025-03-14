@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Videojuego</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>PACEÑO STUDIO</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre el Juego</a></li>
+                <li><a href="#">Personajes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero" style="position: relative;">
+        <!-- Overlay oscuro -->
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
+        <!-- Contenido -->
+        <div class="hero-content" style="position: relative; z-index: 1; text-align: center; padding: 50px;">
+            <h2 style="font-size: 2.5em; color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Bienvenido a Autopista Drift</h2>
+            <p style="color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);">Una aventura épica te espera.</p>
+            <a href="#sobre" class="btn">Conoce más</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre el Juego</h2>
+        <p>El juego está ambientado en la autopista La Paz - El Alto, una de las vías más
+            transitadas y caóticas de Bolivia. El jugador toma el control de un auto que debe
+            recorrer la carretera mientras esquiva distintos obstáculos, como otros vehículos y
+            peatones que cruzan inesperadamente. La clave del juego es mantener la
+            concentración y los reflejos rápidos para evitar colisiones y avanzar lo más lejos
+            posible. UNETE A LA AVENTURA!!
+            </p>
+    </section>
+
+    <section id="Personajes" class="gallery">
+        <h2>Personajes</h2>
+        <div class="gallery-container">
+            <img src="participantes/17.jpg" alt="Mamani Movil ">
+            <img src="participantes/18.jpg" alt="Quispe car ">
+            <img src="participantes/19.jpg" alt="Huanca Movil">
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; 2025 Autopista Dript. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
